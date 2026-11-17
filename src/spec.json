@@ -1,0 +1,207 @@
+{
+  "title": "Registro presenze del laboratorio didattico",
+  "description": "Gestisci le presenze, gli orari di entrata e uscita e le attività svolte durante le sessioni del laboratorio.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica",
+      "description": "Riepilogo delle sessioni e delle presenze registrate.",
+      "metrics": [
+        {
+          "label": "Sessioni registrate",
+          "value": "12"
+        },
+        {
+          "label": "Presenze oggi",
+          "value": "8"
+        },
+        {
+          "label": "Uscite registrate",
+          "value": "6"
+        },
+        {
+          "label": "Attività svolte",
+          "value": "15"
+        }
+      ],
+      "columns": [
+        "Sessione",
+        "Data",
+        "Attività",
+        "Presenze",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Lumo · Colori in movimento",
+          "12/06/2026",
+          "Composizione cromatica",
+          "8",
+          "Conclusa"
+        ],
+        [
+          "Vela · Piccoli circuiti",
+          "12/06/2026",
+          "Percorsi con moduli",
+          "6",
+          "In corso"
+        ],
+        [
+          "Nubi · Storie di carta",
+          "11/06/2026",
+          "Libri pieghevoli",
+          "7",
+          "Conclusa"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "registro-presenze",
+      "title": "Registro presenze",
+      "description": "Consulta e filtra gli accessi dei partecipanti alle sessioni; registra entrata, uscita e attività svolta.",
+      "metrics": [
+        {
+          "label": "Registrazioni",
+          "value": "21"
+        },
+        {
+          "label": "Entrate oggi",
+          "value": "8"
+        },
+        {
+          "label": "Uscite da completare",
+          "value": "2"
+        }
+      ],
+      "columns": [
+        "Partecipante",
+        "Sessione",
+        "Data",
+        "Entrata",
+        "Uscita",
+        "Attività svolta"
+      ],
+      "rows": [
+        [
+          "Nubi-01",
+          "Lumo · Colori in movimento",
+          "12/06/2026",
+          "09:05",
+          "11:02",
+          "Composizione cromatica"
+        ],
+        [
+          "Vela-02",
+          "Lumo · Colori in movimento",
+          "12/06/2026",
+          "09:12",
+          "11:08",
+          "Composizione cromatica"
+        ],
+        [
+          "Lumo-03",
+          "Vela · Piccoli circuiti",
+          "12/06/2026",
+          "09:20",
+          "—",
+          "Percorsi con moduli"
+        ],
+        [
+          "Nubi-04",
+          "Nubi · Storie di carta",
+          "11/06/2026",
+          "14:01",
+          "15:32",
+          "Libri pieghevoli"
+        ],
+        [
+          "Vela-05",
+          "Nubi · Storie di carta",
+          "11/06/2026",
+          "14:10",
+          "15:29",
+          "Rilegatura semplice"
+        ]
+      ],
+      "form": [
+        "Partecipante",
+        "Sessione",
+        "Data",
+        "Entrata",
+        "Uscita",
+        "Attività svolta"
+      ]
+    },
+    {
+      "id": "sessioni",
+      "title": "Sessioni",
+      "description": "Consulta le sessioni didattiche e registra nuove attività di laboratorio.",
+      "metrics": [
+        {
+          "label": "Sessioni programmate",
+          "value": "12"
+        },
+        {
+          "label": "Sessioni concluse",
+          "value": "9"
+        },
+        {
+          "label": "In corso",
+          "value": "1"
+        }
+      ],
+      "columns": [
+        "Sessione",
+        "Data",
+        "Orario",
+        "Attività",
+        "Capienza",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Lumo · Colori in movimento",
+          "12/06/2026",
+          "09:00–11:00",
+          "Composizione cromatica",
+          "10",
+          "In corso"
+        ],
+        [
+          "Vela · Piccoli circuiti",
+          "12/06/2026",
+          "09:15–11:15",
+          "Percorsi con moduli",
+          "8",
+          "In corso"
+        ],
+        [
+          "Nubi · Storie di carta",
+          "11/06/2026",
+          "14:00–15:30",
+          "Libri pieghevoli",
+          "8",
+          "Conclusa"
+        ],
+        [
+          "Lumo · Forme in argilla",
+          "10/06/2026",
+          "10:00–12:00",
+          "Modellazione",
+          "10",
+          "Conclusa"
+        ]
+      ],
+      "form": [
+        "Sessione",
+        "Data",
+        "Orario",
+        "Attività",
+        "Capienza",
+        "Stato"
+      ]
+    }
+  ]
+}
